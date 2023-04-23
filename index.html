@@ -1,30 +1,31 @@
 <!DOCTYPE html>
   <head>
+    <meta charset="utf-8">
     <title>Todo App</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="style.css" media="screen">
   </head>
   <body class="body">
-    <div class="header">
+    <header class="header">
       <img class="header__img" src="./eisenhower-matrix.jpg">
       <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
-    <div class="main">
-      <p id="block-add-item">
+    </header>
+    <main class="main">
+      <div id="block-add-item">
         <label class="block-add-item__label" for="new-task">Add Item</label>
         <div class="block-add-item__form">
           <input id="new-task" class="input" type="text">
-          <button class="button">Add</button>
+          <button type="button" class="button">Add</button>
         </div>
-      </p>
+      </div>
       <h3 class="title">Todo</h3>
       <ul id="incompleted-tasks" class="tasks">
         <li class="task">
           <input class="task__checkbox" type="checkbox">
           <label class="task__lable">Pay Bills</label>
           <input class="task__input input" type="text">
-          <button class="button button_edit">Edit</button>
-          <button class="button button_delete">
+          <button type="button" class="button button_edit">Edit</button>
+          <button type="button" class="button button_delete">
             <img class="button__img" src="./remove.svg">
           </button>
         </li>
@@ -32,8 +33,8 @@
           <input class="task__checkbox" type="checkbox">
           <label class="task__lable">Go Shopping</label>
           <input class="task__input input" type="text" value="Go Shopping">
-          <button class="button button_edit">Save</button>
-          <button class="button button_delete">
+          <button type="button" class="button button_edit">Save</button>
+          <button type="button" class="button button_delete">
             <img class="button__img" src="./remove.svg">
           </button>
         </li>
@@ -44,13 +45,13 @@
           <input class="task__checkbox" type="checkbox" checked>
           <label class="task__lable">See the Doctor</label>
           <input class="task__input input" type="text">
-          <button class="button button_edit">Edit</button>
-          <button class="button button_delete">
+          <button type="button" class="button button_edit">Edit</button>
+          <button type="button" class="button button_delete">
             <img class="button__img" src="./remove.svg">
           </button>
         </li>
       </ul>
-    </div>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
