@@ -49,11 +49,13 @@
   padding: 0px;
 }
 
-.task, .title {
+.task, 
+.title {
   list-style: none;
 }
 
-.input,.button{
+.input,
+.button{
   outline: none;
 }
 
@@ -106,7 +108,7 @@
   margin: 0 0 20px;
 }
 
-.block-add-item__form.input {
+.block-add-item__form .input {
   width: 318px;
 }
 
