@@ -45,7 +45,7 @@
 }
 
 .tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
@@ -134,7 +134,7 @@
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
-  width: 226px;
+  flex-grow: 1;
 }
 
 .task__input {
